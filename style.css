@@ -147,6 +147,7 @@ a:active {
   width: 100%;
   max-width: 750px;
   margin: 3em auto;
+
   color: var(--lightGrey);
 }
 
