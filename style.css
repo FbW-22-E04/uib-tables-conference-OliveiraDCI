@@ -143,6 +143,35 @@ a:active {
 /* Page Schedule */
 /* ============= */
 
+.table-container {
+  width: 100%;
+  max-width: 750px;
+  margin: 3em auto;
+  color: var(--lightGrey);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.workshops-cell {
+  font-size: 2.5rem;
+}
+
+.schedule-table th {
+  text-align: right;
+  font-weight: 400;
+}
+
+.schedule-table td,
+.schedule-table th {
+  padding: 1.3em 1em;
+}
+
+.schedule-table td {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.527);
+}
+
 /* ========== */
 /* Page Venue */
 /* ========== */
