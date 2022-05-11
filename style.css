@@ -131,6 +131,22 @@ a:active {
   margin-bottom: 0.5em;
 }
 
+/* ========= */
+/* Home Page */
+/* ========= */
+
+/* ============= */
+/* Page Speakers */
+/* ============= */
+
+/* ============= */
+/* Page Schedule */
+/* ============= */
+
+/* ========== */
+/* Page Venue */
+/* ========== */
+
 /* ============= */
 /* Page Register */
 /* ============= */
@@ -184,11 +200,6 @@ p {
 
 .form-item-box label {
   font-weight: 800;
-}
-
-.num-box {
-  display: inline-block;
-  width: 20%;
 }
 
 .form-btn {
