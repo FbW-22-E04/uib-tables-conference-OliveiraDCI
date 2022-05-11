@@ -5,6 +5,7 @@
   --antiqueWhite: antiquewhite;
   --bgLight: linear-gradient(0.25turn, #cdeac0, #f3e0ac, #fec3a6, #ffac81);
   --bgGreen: rgba(41, 189, 49, 0.253);
+  --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 *,
@@ -24,7 +25,7 @@ html {
 
 body {
   font-family: sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   background-color: var(--antiqueWhite);
 }
@@ -34,8 +35,9 @@ body {
 .nav-box {
   background: var(--bgGreen);
   height: 25vh;
-  min-height: 170px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+  min-height: 176px;
+  padding: 0 1em;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
 }
 .nav-box-width {
   position: relative;
@@ -101,12 +103,17 @@ a:active {
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
+.current {
+  text-decoration: underline;
+}
+
 /* Header Hero */
 
 .hero-box {
   background: var(--bgLight);
   height: 12vh;
   min-height: 120px;
+  padding: 0 1em;
 }
 
 .hero-box-width {
@@ -122,4 +129,72 @@ a:active {
 
 .hero-box h3 {
   margin-bottom: 0.5em;
+}
+
+/* ============= */
+/* Page Register */
+/* ============= */
+
+.max-width {
+  max-width: 600px;
+  margin: 5em auto;
+}
+
+.main-container {
+  position: relative;
+  display: flex;
+  padding: 0.2em;
+}
+
+/* Details */
+
+.details-container {
+  max-width: 65%;
+  color: var(--lightGrey);
+}
+
+.details-container h3,
+h4,
+p {
+  padding: 0.3em 0;
+}
+
+.details-container ul {
+  margin-left: 2em;
+}
+
+/* Form */
+
+.form-container {
+  position: absolute;
+  right: 0;
+  color: var(--lightGrey);
+}
+
+.form-item-box:not(:first-child) {
+  margin: 0.6em 0.2em;
+}
+
+.form-item-box label,
+.form-item-box input {
+  display: block;
+  width: 100%;
+  padding: 0.2em;
+}
+
+.form-item-box label {
+  font-weight: 800;
+}
+
+.num-box {
+  display: inline-block;
+  width: 20%;
+}
+
+.form-btn {
+  padding: 0.5em 1.5em;
+  color: var(--lightGrey);
+  background-color: var(--bgGreen);
+  box-shadow: var(--box-shadow);
+  font-weight: 800;
 }
