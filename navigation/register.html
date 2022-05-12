@@ -16,15 +16,11 @@
             <p>August 24 - 26th 2022 - Hamburg DE</p>
             <ul class="nav-links">
               <li class="nav-links"><a href="/">HOME</a></li>
-              <li class="nav-links">
-                <a href="speakers.html">SPEAKERS</a>
-              </li>
+
               <li class="nav-links">
                 <a href="schedule.html">SCHEDULE</a>
               </li>
-              <li class="nav-links">
-                <a href="venue.html">VENUE</a>
-              </li>
+
               <li class="current nav-links">
                 <a href="register.html">REGISTER</a>
               </li>
@@ -76,19 +72,21 @@
           </div>
           <div class="form-item-box">
             <label for="num">Number of Passes</label>
-            <input
-              class="num-box"
-              type="number"
-              name="num"
-              id="num"
-              value="1"
-              min="1"
-              max="5"
-            />
+            <select name="num" id="num">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
           </div>
           <div class="form-item-box">
             <label for="comments">Comments</label>
-            <input type="text" name="comments" id="comments" />
+            <textarea
+              name="comments"
+              id="comments"
+              cols="20"
+              rows="5"
+              placeholder="comments"
+            ></textarea>
           </div>
           <div class="form-item-box">
             <button class="form-btn" type="submit">PURCHASE</button>
