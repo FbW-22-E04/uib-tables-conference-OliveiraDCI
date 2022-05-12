@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-box">
+        <div class="nav-box-width">
+          <h1>WEB DEV <br />CONFERENCE</h1>
+          <div>
+            <p>August 24 - 26th 2022 - Hamburg DE</p>
+            <ul class="nav-links">
+              <li class="nav-links"><a href="/">HOME</a></li>
+
+              <li class="nav-links">
+                <a href="schedule.html">SCHEDULE</a>
+              </li>
+
+              <li class="current nav-links">
+                <a href="register.html">REGISTER</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero-box">
+        <div class="hero-box-width">
+          <h3>Register</h3>
+          <p>Registration is required at Nic Cage's Conference.</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-container max-width">
+      <div class="details-container">
+        <h3>Purchase an all access Web Dev pass</h3>
+        <p>$1 per Pass</p>
+        <p>
+          Purchase your Web Dev Conference pass using the form to the right.
+          Multiple passes may be purchased within the same order, so feel free
+          to bring a friend or two along. Once your order is finished we'll
+          follow up and provide a receipt for your purchase. See you soon!
+        </p>
+        <h4>Why attend?</h4>
+        <ul>
+          <li>Great speakers</li>
+          <li>One full day of Web Dev</li>
+          <li>Hosted at a historical landmark</li>
+          <li>August is the best time of the year to visit</li>
+        </ul>
+      </div>
+      <div class="form-container">
+        <form action="#" method="post">
+          <div class="form-item-box">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Full name" />
+          </div>
+          <div class="form-item-box">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email address"
+            />
+          </div>
+          <div class="form-item-box">
+            <label for="num">Number of Passes</label>
+            <select name="num" id="num">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+          <div class="form-item-box">
+            <label for="comments">Comments</label>
+            <textarea
+              name="comments"
+              id="comments"
+              cols="20"
+              rows="5"
+              placeholder="comments"
+            ></textarea>
+          </div>
+          <div class="form-item-box">
+            <button class="form-btn" type="submit">PURCHASE</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
